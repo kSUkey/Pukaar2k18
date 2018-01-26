@@ -1,0 +1,1058 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="photoshop,layout,app,logo,ui,ux,design,wirefrime,graphic,web,user,interface,responsive,mobile,ios,android,petar,stojakovic,subotica,srbija,balkan,evropa,designer,brand,user interface">
+		<title>PUKAAR - Echos Of Earth</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta property="og:title" content="Petar Stojaković" />
+		<meta property="og:image" content="images/share.jpg" />
+		<meta property="og:image" content="images/share_2.jpg" />
+		<link rel="icon" type="image/x-icon" href="icons/favicon_64x64.ico" />
+		<link rel="apple-touch-icon" href="icons/favicon_32x32.ico" sizes="32x32">
+		<link rel="apple-touch-icon" href="icons/favicon_64x64.ico" sizes="64x64">
+
+		<link type="text/css" rel="stylesheet" href="css/all.css" />
+	</head>
+	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+					<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+					<feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+				</filter>
+
+				<linearGradient id="text-gradient"
+					x1="0%" y1="0%"
+					x2="100%" y2="0%">
+					  <stop offset="0%"   stop-color="#5b4227" stop-opacity="1"/>
+					  <stop offset="57%" stop-color="#eeb272" stop-opacity="1"/>
+					<stop offset="100%" stop-color="#b2814c" stop-opacity="1"/>
+				</linearGradient>
+
+				<linearGradient id="title-gradient"
+					x1="0%" y1="0%"
+					x2="100%" y2="0%">
+					  <stop offset="0%"   stop-color="#202020" stop-opacity="1"/>
+					  <stop offset="100%" stop-color="#2f2f2f" stop-opacity="1"/>
+				</linearGradient>
+			</defs>
+
+			<mask id="title-mask" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+			  <linearGradient id="fade_right_svg_gradient" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1">
+				   <stop offset="30%" stop-color="#fff" stop-opacity="1"/>
+				  <stop offset="67%" stop-color="#000" stop-opacity="1"/>
+			  </linearGradient>
+
+			  <rect x="0" y="0" width="1" height="1" fill="url(#fade_right_svg_gradient)"></rect>
+			</mask>
+		</svg>
+
+		<!-- <img id="background-image" class="bkg-image" src="images/petar.png" alt="petar stojakovic" /> -->
+
+		<div class="container preloading">
+			<div class="scroll-content parallax-container">
+			   <header>
+					   <div id="animated-gradient"></div>
+					<div class="layer wave always-visible"></div>
+					<div class="layer parallax" data-depth="0.2"><div class="circle circle-8"></div></div>
+					<div class="layer parallax" data-depth="0.05"><div class="circle circle-9"></div></div>
+					<div class="layer parallax overflow-visible" data-depth="0.3"><div class="circle circle-10"></div></div>
+					<div class="layer parallax to-front" data-depth="0.1"><div class="circle circle-11"></div></div>
+					<div class="layer parallax" data-depth="0.07"><div class="circle circle-12"></div></div>
+					<div class="layer parallax overflow-visible" data-depth="0.2"><div class="circle circle-13"></div></div>
+					<div class="layer parallax" data-depth="0.4"><div class="circle circle-14"></div></div>
+<!--					<div class="layer to-front always-visible" data-depth="0.075"><img class="img-portrait" src="images/petar-new.png" alt="Petar Stojakovic" /></div>-->
+<!--
+					<button class="btn btn-popup-open animated">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12 22">
+							 <path clip-rule="evenodd" fill="#fff" d="M4.263,9.381C4.497,8.777,4.197,8.474,3.93,8.474 c-1.231,0-2.829,2.923-3.427,2.923c-0.234,0-0.433-0.236-0.433-0.437c0-0.605,1.464-2.016,1.897-2.453 c1.331-1.277,3.062-2.251,4.992-2.251c1.431,0,2.963,0.873,1.764,4.133l-2.396,6.552c-0.2,0.504-0.565,1.345-0.565,1.882 c0,0.235,0.132,0.47,0.399,0.47c0.998,0,2.829-2.857,3.295-2.857c0.166,0,0.399,0.201,0.399,0.504c0,0.974-3.893,5.141-7.255,5.141 c-1.199,0-2.031-0.571-2.031-1.848c0-1.613,1.132-4.368,1.365-4.94L4.263,9.381z M6.06,2.761c0-1.478,1.265-2.687,2.729-2.687 c1.332,0,2.297,0.906,2.297,2.285c0,1.546-1.265,2.689-2.762,2.689C6.959,5.047,6.06,4.139,6.06,2.761z"/>
+						</svg>
+						<span class="btn-title">INFO</span>
+					</button>
+-->
+					<div class="btn btn-popup-open info">
+						<div class="border">
+							<div class="border middle"></div>
+						</div>
+						<div class="btn-label">INFO</div>
+					</div>
+
+					<div id="titles">
+						<div class="title" data-popup-title="About Us"
+							data-popup-content="<p>We feel connected to nature, yet we can hardly explain why nature impresses us so much, or why do we seek to spend time in nature. The truth is that we are part of nature as anything else. When we disconnect from nature, we forget who we are. Raise your voice. Roar! We are nature, we and our souls. Pull yourself out of that YOU. It is time to show that nature is you. Launching our GreenFest, PUKAAR for the first time.</p>">
+							<h1 class="cd-headline letters rotate-3">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">PUKAAR</b>
+									<b>PUKAAR</b>
+								</span>
+							</h1>
+
+						</div>
+
+						<div class="title" data-popup-title="ui design"
+							data-popup-content="<p>I create modern and trendy designs with unique details and effects<br />designs expertly made to both shine a light on all the best characteristics of your<br />brand;Designs that capture the users mindset and understand their needs,<br />designs able to quickly guide users to their (and your) goal.</p>">
+							<h1 class="cd-headline letters">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">PUKAAR</b>
+									<b>PUKAAR</b>
+								</span>
+<!--								User Interface-->
+							</h1>
+						</div>
+
+						<div class="title" data-popup-title="ux design"
+							data-popup-content="<p>In my mind, user experience design is the highest form of design. I love to figure<br />out fresh ways to engage your audience. It’s not an easy feat in today’s overwhelming<br />world and requires intimate understanding of our innermost desires and insight<br />into how we work and how we think. But to bring a unique experience<br />and feeling in my projects, will always be my main goal!</p>">
+							<h1 class="cd-headline letters">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">ECHOS</b>
+									<b>ECHOS</b>
+								</span>
+<!--								User Experience-->
+							</h1>
+						</div>
+
+						<div class="title" data-popup-title="app design"
+							data-popup-content="<p>My experience is that apps are an inevitable part of any product or<br />software development. 60% of users use mobile devices more than their desktops.<br />Mobile platforms have progressed so much that they allow an advanced UX.<br />Let's work together so that users of your app will have an even better<br />experience than they would have on a desktop computer.</p>">
+							<h1 class="cd-headline letters">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">OF</b>
+									<b>OF</b>
+								</span>
+<!--								Mob Application-->
+							</h1>
+						</div>
+
+						<div class="title" data-popup-title="product design"
+							data-popup-content="<p>Creating a whole visual identity for a brand or making digital product from<br />scratch and I be totally responsible for that. Makes me passionate and gives me the<br />most satisfaction; that passion translates into my work - so you can be sure that</br />with me, you won't get just another generic, uninspired design.</p>">
+							<h1 class="cd-headline letters">
+								<span class="cd-words-wrapper">
+									<b class="is-visible">EARTH</b>
+									<b>EARTH</b>
+								</span>
+<!--								Brand Design-->
+							</h1>
+						</div>
+					</div>
+
+					<div class="optimizations">
+						<div id="btn-animate" class="btn optimize"><a href="#"><span class="label">OFF</span></a></div>
+					</div>
+
+<!--
+					<div class="cssdesignawards">
+						<a href="http://www.cssdesignawards.com/sites/petar-stojakovic/26648/" target="_blank">CSSDesignAwards</a>
+					</div>
+-->
+
+<!--
+					<div id="awwwards" class="nominee black left">
+						<a href="http://www.awwwards.com/best-websites/petar-stojakovic/?subsection=open" target="_blank">Awwwards</a>
+					</div>
+-->
+
+<!--
+					<div class="csswinner">
+						<a href="http://www.csswinner.com/details/petar-stojakovic/9368" target="_blank">CssWinner</a>
+					</div>
+-->
+
+<!--					<div class="opl"><a href="https://onepagelove.com/petar-stojakovic" target="_blank">Your Site Name featured on One Page Love</a></div>-->
+				</header>
+
+				<div class="content">
+					<div class="layer-1"><div class="circle circle-1"></div></div>
+					<div class="layer-2"><div class="circle circle-2"></div></div>
+					<div class="layer-7"><div class="circle circle-7"></div></div>
+					<div class="layer-17"><div class="circle circle-17"></div></div>
+					<div class="layer-15"><div class="circle circle-15"></div></div>
+					<div class="layer-3"><div class="circle circle-3"></div></div>
+					<div class="layer-16"><div class="circle circle-16"></div></div>
+					<div class="layer-4"><div class="circle circle-4"></div></div>
+					<div class="layer-5"><div class="circle circle-5"></div></div>
+					<div class="layer-6"><div class="circle circle-6"></div></div>
+
+
+					<section class="welcome">
+<!--						<h2>welcome</h2>-->
+						<h2>
+							<svg width="100%" height="1em">
+								<text x="0" y="1em" fill="url(#title-gradient)" mask="url(#title-mask)">welcome</text>
+							</svg>
+						</h2>
+						<div class="content-container">
+							<svg width="100%" height="7.05em" class="visible">
+								<text fill="url(#text-gradient)" x="0" y="1em">Hi, I'm Petar and I have dedicated my entire</text>
+								<text fill="url(#text-gradient)" x="0" y="2.5em">professional and personal orientation toward</text>
+								<text fill="url(#text-gradient)" x="0" y="4em">developing myself into not only being the best</text>
+								<text fill="url(#text-gradient)" x="0" y="5.5em">possible designer I can be, but being one step</text>
+								<text fill="url(#text-gradient)" x="0" y="7em">ahead of the curve at all times.</text>
+							</svg>
+
+							<svg width="100%" height="7.0em" class="hidden tablet">
+								<text fill="url(#text-gradient)" x="0" y="1em">Hi, I'm Petar and I have dedicated my entire</text>
+								<text fill="url(#text-gradient)" x="0" y="2.5em">professional and personal orientation toward</text>
+								<text fill="url(#text-gradient)" x="0" y="4em">developing myself intonot only being the best</text>
+								<text fill="url(#text-gradient)" x="0" y="5.5em">possible designer I can be, but being one step</text>
+								<text fill="url(#text-gradient)" x="0" y="7.0em">ahead of the curve at all times.</text>
+							</svg>
+
+<!--							<p data-bullet="01" class="bullet">Hi, I'm Petar and I have dedicated my entire<br /> professional and personal orientation toward<br /> developing myself into not only being the best<br /> possible designer I can be, but being one step<br /> ahead of the curve at all times.</p>	-->
+							<p>It is my personal choice not to have any single goal or idol, because I believe that once you reach your goal<br /> and surpass it you will start to stagnate; instead I have a direction in which I am developing my talent hoping it<br /> will always bring unique and measurable results to my clients.</p>
+							<p>For me, true success comes from giving 200% on all projects I accept to work on. That means keeping an eye<br /> on all the small details within the design and creating something that makes sense for both the users and<br /> clients. </p>
+							<p>I don't think that there are small or big clients, instead I choose to work only on opportunities that excite me,<br /> because that excitement translates into passion which allows me to create something unique - something that<br /> creates a memorable effect on anyone who sees it.</p>
+						</div>
+					</section>
+
+					<div class="frame awesome-shit" data-appear-top-offset="-200">
+						<!--<svg id="awesome-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 397 450" x="0px" y="0px" preserveAspectRatio="xMidYMid meet">
+							<text class="make" stroke-width="0" fill="#fff" x="-45" y="90">i will only make</text>
+							<text class="you" stroke-width="0" fill="#fff" x="-52" y="380">F</text>
+							<text class="you" stroke-width="0" fill="#fff" x="290" y="380">U!</text>
+							<path d="M333,0 L0,0 L 0,450" />
+							<text class="awesome" stroke-width="0" fill="#fff" x="-240" y="240">awesome sh.t</text>
+							<path d="M333,0 L333,450 L 0,450" />
+							<text class="you" stroke-width="0" fill="#fff" x="5" y="380">OR YO</text>
+						</svg>-->
+
+<!--
+						<div class="content-wrapper">
+							<div class="make">i will only make</div>
+							<div class="awesome">awesome sh.t</div>
+							<div class="you">for you!</div>
+						</div>
+-->
+						<div class="border top"></div>
+						<div class="border right"></div>
+						<div class="border bottom"></div>
+						<div class="border left"></div>
+						<img class="make" src="images/1_text.svg" alt="make" />
+						<img class="awesome" src="images/2_text.svg" alt="awesome" />
+						<div class="for-you">
+<!--							<img class="f" src="images/1_text_f.svg" />-->
+							<img class="oryo" src="images/3_text.svg" />
+<!--							<img class="u" src="images/3_text_u!.svg" />-->
+						</div>
+
+					</div>
+
+					<section class="short-bio">
+<!--						<h2>short bio</h2>-->
+						<h2>
+							<svg width="100%" height="1em">
+								<text x="0" y="1em" fill="url(#title-gradient)" mask="url(#title-mask)">short bio</text>
+							</svg>
+						</h2>
+						<div class="content-container">
+							<svg width="100%" height="5.5em" class="visible">
+								<text fill="url(#text-gradient)" x="0" y="1em">Why should choose me to develop your Digital</text>
+								<text fill="url(#text-gradient)" x="0" y="2.5em">Products, your Mobile Apps, Illustrations? Why</text>
+								<text fill="url(#text-gradient)" x="0" y="4em">choose&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for your Web Development,</text>
+								<text fill="url(#text-gradient)" x="0" y="5.5em">or even for Motion Graphic?</text>
+								<a xlink:href="http://fiftyseven.co/" xlink:show="new"><text fill="#ffffff" x="4em" y="4em">my team</text></a>
+							</svg>
+
+							<svg width="100%" height="5.5em" class="hidden">
+								<text fill="url(#text-gradient)" x="0" y="1em">Why should choose me to develop your Digital</text>
+								<text fill="url(#text-gradient)" x="0" y="2.5em">Products, your Mobile Apps, Illustrations? Why</text>
+								<text fill="url(#text-gradient)" x="0" y="4em">choose&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for your Web Development,</text>
+								<text fill="url(#text-gradient)" x="0" y="5.5em">or even for Motion Graphic?</text>
+								<a xlink:href="http://fiftyseven.co/" xlink:show="new"><text fill="#ffffff" x="4em" y="4em">my team</text></a>
+							</svg>
+
+<!--							<p data-bullet="02" class="bullet">After finishing the studies at the Faculty of Computer Science – Digital Graphics & Design, I started my own journey as a full time freelancer.</p>-->
+							<p>Before I even started freelancing, I finished the Faculty of Computer Science and became a Digital Graphics
+								<br />& Design graduate… Since I was a kid I wanted to be a designer. So during the study, I’ve spent full 3 years working and designing exclusive kitchens for select clientele. I also have “agency experience” as I’ve spent<br />over a year in a creative agency as a junior designer.</p>
+<!--							<p>I started my own journey as a full time freelancer. And it wasn’t easy to start with!</p>-->
+							<p>After almost 5 years of professional working experience - both as an “offline” designer and a designer for an agency, I quit my job and started my own journey as a full time freelancer… it took me a while, years in fact,<br /> but I have overcome all challenges and successfully built together a fantastic team around me - and in the last<br /> 4 years it all paid off and we’ve done some incredible things together. And now I am able to provide a full<br /> digital experience and service for all your design needs.</p>
+						</div>
+						<div class="actions-container">
+							<h3>Events &amp; Programs</h3>
+							<div class="btn-wrap">
+							<div class="btn awards no-link"><a href="http://www.cssdesignawards.com/" target="_blank">Event_1</a></div>
+							<div class="btn awards no-link"><a href="http://www.onepageawards.com/" target="_blank">Event_2</a></div>
+							<div class="btn awards no-link"><a href="http://www.frenchdesignindex.com/" target="_blank">Event_3</a></div>
+							<div class="btn awards no-link"><a href="http://www.awwwards.com/" target="_blank">Event_4</a></div>
+							<div class="btn awards no-link"><a href="http://awwwards.com/" target="_blank">Event_5</a></div>
+							<div class="btn awards no-link"><a href="https://mindsparklemag.com/" target="_blank">Event_6</a></div>
+							<div class="btn awards no-link"><a href="https://www.commarts.com/" target="_blank">Event_7</a></div>
+							<div class="btn awards no-link"><a href="https://www.commarts.com/" target="_blank">Event_8</a></div>
+							</div>
+
+							<h3>Sponsors</h3>
+							<div class="btn-wrap">
+							<div class="btn awards no-link"><a href="http://www.cssdesignawards.com/dd/design-stories-9-life-as-a-freelancer/66/" target="_blank">Attraction Gift</a></div>
+							<div class="btn awards no-link"><a href="http://www.csswinner.com/blog/interview-with-petar-stojakovic/" target="_blank">Sponsors 2</a></div>
+							<div class="btn awards no-link"><a href="https://uxdesign.cc/pretty-pixels-vs-functional-design-35170e413d67" target="_blank">Sponsors 3</a></div>
+							<div class="btn awards no-link"><a href="https://medium.com/@petarstojakovic/lets-eo-to-yachteo-f19143082fa2" target="_blank">Sponsors 4</a></div>
+							</div>
+						</div>
+					</section>
+
+					<section class="lets-rock">
+<!--						<h2>let's rock</h2>-->
+						<h2>
+							<svg width="100%" height="1em">
+								<text x="0" y="1em" fill="url(#title-gradient)" mask="url(#title-mask)">let's rock</text>
+							</svg>
+						</h2>
+						<div class="content-container">
+							<svg width="100%" height="4.05em" class="visible">
+								<text fill="url(#text-gradient)" x="0" y="1em">If you just want to say “hi”, or you have a</text>
+								<text fill="url(#text-gradient)" x="0" y="2.5em">project that you would like to get me involved</text>
+								<text fill="url(#text-gradient)" x="0" y="4em">in, please don't be shy and contact me at:</text>
+							</svg>
+
+							<svg width="100%" height="4.05em" class="hidden">
+								<text fill="url(#text-gradient)" x="0" y="1em">If you just want to say “hi”, or you have a </text>
+								<text fill="url(#text-gradient)" x="0" y="2.5em">project that you would like to get me involed in, </text>
+								<text fill="url(#text-gradient)" x="0" y="4.05em">please don't be shy and contact me at:</text>
+							</svg>
+
+							<p><a class="clipboard" href="gogreennitrr@gmail.com">gogreennitrr@gmail.com</a></p>
+<!--								<p data-bullet="03" class="bullet">If you just want to say “Hi” or have a project in which you would like to get me involed in the, be free to send me a email at:- <a class="clipboard" href="mailto:hey@petarstojakovic.net">hey@petarstojakovic.net</a></p>-->
+							<p>Also please do not hesitate to check my work on Behance and Dribbble profiles in the links below, ping<br /> me through those profiles or contact me directly so that we can make something cool and awesome together!</p>
+						</div>
+						<div class="actions-container">
+							<div class="btn share behance">
+								<div class="border">
+									<div class="border middle"></div>
+								</div>
+								<a href="https://www.facebook.com/GoGreenNITRaipur/" target="_blank">FACEBOOK</a>
+							</div>
+							<div class="btn share dribbble">
+							<div class="border">
+								<div class="border middle"></div>
+							</div>
+								<a href="https://www.instagram.com/go_green_nitrr/" target="_blank">INSTAGRAM</a>
+							</div>
+							<div class="btn share twitter">
+							<div class="border">
+								<div class="border middle"></div>
+							</div>
+								<a href="https://twitter.com/Go_Green_NITRR" target="_blank">TWITTER</a>
+							</div>
+						</div>
+					</section>
+
+					<div class="frame about-quote" data-appear-top-offset="-200">
+						<svg id="quote-svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" id="quote-border" viewBox="0 0 389 434">
+							<path d="M140,0L0,0L0,150" data-start="0" data-duration="32" />
+							<path d="M246,0L386,0L386,150" data-start="0" data-duration="32" />
+							<path class="quote-border-bottom" d="M0,150L0,434L192,434" data-start="0" data-duration="48" />
+							<path class="quote-border-bottom" d="M386,150L386,434L192,434" data-start="0" data-duration="48" />
+						</svg>
+						<div class="quote-wrapper">
+							<h3>the future is</h3>
+							<div class="want">What you want.</div>
+							<div class="lazy">So don't be lazy and</div><div class="shit">make your sh.t happen!</div>
+						</div>
+						<div class="signature"><img src="images/potpis.png"></div>
+					</div>
+					<img class="img-portrait" src="images/petar-flip.png" alt="Petar Stojakovic" />
+
+					<div class="share-goo">
+						<button class="share-toggle-button">
+							<i class="share-icon fa fa-heart"></i>
+						</button>
+						<ul class="share-items">
+							<li class="share-item">
+								<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.petarstojakovic.net" class="share-button">
+									<i class="share-icon fa fa-facebook"></i>
+								</a>
+							</li>
+							<li class="share-item">
+								<a target="_blank" href="https://www.twitter.com/share?url=http://www.petarstojakovic.net/" class="share-button">
+									<i class="share-icon fa fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="content-navigation hide arrdown">
+				<svg class="nav-tab" width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="#FFFFFF" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+
+				<svg class="arrow" width="100%" height="100%" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 14 10" enable-background="new 0 0 14 10" xml:space="preserve"><path fill-rule="evenodd" clip-rule="evenodd" fill="#101010" d="M7,5.6l3.9-4.3c0.4-0.4,1-0.4,1.4,0l0.4,0.4c0.4,0.4,0.4,1.1,0,1.6l-4.6,5c0,0,0,0,0,0L7.7,8.7C7.5,8.9,7.3,9,7,9C6.8,9,6.5,8.9,6.3,8.7L5.9,8.3c0,0,0,0,0,0l-4.6-5c-0.4-0.4-0.4-1.1,0-1.6l0.4-0.4c0.4-0.4,1-0.4,1.4,0L7,5.6z"/></svg>
+			</div>
+
+			<div id="intro">
+				<div class="skip-intro">
+					<div id="btn-skip-intro">Skip Intro</div>
+				</div>
+
+			<!-- Safari iOS for some reason doesn't like image svg -->
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 842 595" xml:space="preserve">
+
+					<style type="text/css" >
+					  <![CDATA[
+						.animate,
+						.animate * {
+							-webkit-animation-fill-mode: both;
+							animation-fill-mode: both;
+
+							-webkit-animation-duration: 1.2s;
+							animation-duration: 1.2s;
+						}
+
+						@-webkit-keyframes opacity {
+							0% {
+								opacity: 0;
+							}
+
+							100% {
+								opacity: 1;
+							}
+						}
+
+						@keyframes opacity {
+							0% {
+								opacity: 0;
+							}
+
+							100% {
+								opacity: 1;
+							}
+						}
+
+						@-webkit-keyframes toRed {
+							to {
+								fill: #ff0000;
+							}
+						}
+
+						@keyframes toRed {
+							to {
+								fill: #ff0000;
+							}
+						}
+
+						@-webkit-keyframes toGreen {
+							to {
+								fill: #00ff00;
+							}
+						}
+
+						@keyframes toGreen {
+							to {
+								fill: #00ff00;
+							}
+						}
+
+						@-webkit-keyframes toBlue {
+							from {
+								fill: #212121;
+							}
+
+							to {
+								fill: #0000ff;
+							}
+						}
+
+						@keyframes toBlue {
+							from {
+								fill: #212121;
+							}
+
+							to {
+								fill: #0000ff;
+							}
+						}
+
+						/* Arrow animation */
+						.arrow {
+							-webkit-animation-name: opacity;
+							-webkit-animation-duration: 0.4s;
+
+							animation-name: opacity;
+							animation-duration: 0.4s;
+						}
+
+						.arrow.first {
+							-webkit-animation-delay: 1.2s;
+							animation-delay: 1.2s;
+						}
+
+						.arrow.second {
+							-webkit-animation-delay: 3.3s;
+							animation-delay: 3.3s;
+						}
+
+						.l > *,
+						.o > *,
+						.v > *,
+						.e > *,
+						.c > *,
+						.r > *,
+						.a > *,
+						.t > *,
+						.i > *,
+						.n > *,
+						.s > *,
+						.p > * {
+							-webkit-animation-name: opacity;
+							animation-name: opacity;
+						}
+
+						/* Love timings */
+						.love.l .lower {
+							-webkit-animation-delay: 0.2s;
+							animation-delay: 0.2s;
+						}
+
+						.o .upper,
+						.o .lower {
+							-webkit-animation-name: opacity;
+							animation-name: opacity;
+						}
+
+						.love.o .upper {
+							-webkit-animation-delay: 0.3s;
+							animation-delay: 0.3s;
+						}
+
+						.love.o .lower {
+							-webkit-animation-delay: 0.4s;
+							animation-delay: 0.4s;
+						}
+
+						.love.v .upper {
+							-webkit-animation-delay: 0.5s;
+							animation-delay: 0.5s;
+						}
+
+						.love.v .lower {
+							-webkit-animation-delay: 0.6s;
+							animation-delay: 0.6s;
+						}
+
+						.love.e .left {
+							-webkit-animation-delay: 0.7s;
+							animation-delay: 0.7s;
+						}
+
+						.love.e .upper {
+							-webkit-animation-delay: 0.8s;
+							animation-delay: 0.8s;
+						}
+
+						.love.e .lower {
+							-webkit-animation-delay: 0.9s;
+							animation-delay: 0.9s;
+						}
+
+						.love.e .middle {
+							-webkit-animation-delay: 1.0s;
+							animation-delay: 1.0s;
+						}
+
+						/* Create timings */
+						.create.c .upper {
+							-webkit-animation-delay: 1.4s;
+							animation-delay: 1.4s;
+						}
+
+						.create.c .lower {
+							-webkit-animation-delay: 1.6s;
+							animation-delay: 1.6s;
+						}
+
+						.create.r .upper {
+							-webkit-animation-delay: 1.7s;
+							animation-delay: 1.7s;
+						}
+						.create.r .left {
+							-webkit-animation-delay: 1.8s;
+							animation-delay: 1.8s;
+						}
+
+						.create.r .lower {
+							-webkit-animation-delay: 1.9s;
+							animation-delay: 1.9s;
+						}
+
+						.create.e .left {
+							-webkit-animation-delay: 2s;
+							animation-delay: 2s;
+						}
+
+						.create.e .upper {
+							-webkit-animation-delay: 2.1s;
+							animation-delay: 2.1s;
+						}
+
+						.create.e .lower {
+							-webkit-animation-delay: 2.2s;
+							animation-delay: 2.2s;
+						}
+
+						.create.e .middle {
+							-webkit-animation-delay: 2.3s;
+							animation-delay: 2.3s;
+						}
+
+						.create.a > * {
+							-webkit-animation-name: opacity;
+							animation-name: opacity;
+						}
+
+						.create.a .upper {
+							-webkit-animation-delay: 2.4s;
+							animation-delay: 2.4s;
+						}
+
+						.create.a .lower {
+							-webkit-animation-delay: 2.5s;
+							animation-delay: 2.5s;
+						}
+
+						.create.a .middle {
+							-webkit-animation-delay: 2.6s;
+							animation-delay: 2.6s;
+						}
+
+						.create.t .upper {
+							-webkit-animation-delay: 2.7s;
+							animation-delay: 2.7s;
+						}
+
+						.create.t .lower {
+							-webkit-animation-delay: 2.8s;
+							animation-delay: 2.8s;
+						}
+
+						.create.e.second .left {
+							-webkit-animation-delay: 2.9s;
+							animation-delay: 2.9s;
+						}
+
+						.create.e.second .upper {
+							-webkit-animation-delay: 3s;
+							animation-delay: 3s;
+						}
+
+						.create.e.second .lower {
+							-webkit-animation-delay: 3.1s;
+							animation-delay: 3.1s;
+						}
+
+						.create.e.second .middle {
+							-webkit-animation-delay: 3.2s;
+							animation-delay: 3.2s;
+						}
+
+						/* Inspire timings */
+						.inspire.i.first > * {
+							-webkit-animation-delay: 3.5s;
+							animation-delay: 3.5s;
+						}
+
+						.inspire.n .upper {
+							-webkit-animation-delay: 3.6s;
+							animation-delay: 3.6s;
+						}
+
+						.inspire.n .lower {
+							-webkit-animation-delay: 3.7s;
+							animation-delay: 3.7s;
+						}
+
+						.inspire.n .middle {
+							-webkit-animation-delay: 3.8s;
+							animation-delay: 3.8s;
+						}
+
+						.inspire.s .upper {
+							-webkit-animation-delay: 3.9s;
+							animation-delay: 3.9s;
+						}
+
+						.inspire.s .lower {
+							-webkit-animation-delay: 4.0s;
+							animation-delay: 4.0s;
+						}
+
+						.inspire.p > * {
+							-webkit-animation-name: opacity;
+							animation-name: opacity;
+						}
+
+						.inspire.p .upper {
+							-webkit-animation-delay: 4.1s;
+							animation-delay: 4.1s;
+						}
+
+						.inspire.p .lower {
+							-webkit-animation-delay: 4.2s;
+							animation-delay: 4.2s;
+						}
+
+						.inspire.i.second > * {
+							-webkit-animation-delay: 4.3s;
+							animation-delay: 4.3s;
+						}
+
+						.inspire.r .upper {
+							-webkit-animation-delay: 4.4s;
+							animation-delay: 4.4s;
+						}
+
+						.inspire.r .left {
+							-webkit-animation-delay: 4.5s;
+							animation-delay: 4.5s;
+						}
+
+						.inspire.r .lower {
+							-webkit-animation-delay: 4.6s;
+							animation-delay: 4.6s;
+						}
+
+						.inspire.e .left {
+							-webkit-animation-delay: 4.7s;
+							animation-delay: 4.7s;
+						}
+
+						.inspire.e .upper {
+							-webkit-animation-delay: 4.8s;
+							animation-delay: 4.8s;
+						}
+
+						.inspire.e .lower {
+							-webkit-animation-delay: 4.9s;
+							animation-delay: 4.9s;
+						}
+
+						.inspire.e .middle {
+							-webkit-animation-delay: 5.0s;
+							animation-delay: 5.0s;
+						}
+					  ]]>
+					</style>
+
+				<g class="intro">
+					<defs>
+						<rect id="SVGID_1_" width="842" height="595"/>
+					</defs>
+					<clipPath id="SVGID_2_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+
+					<!-- L -->
+					<g class="animate love l">
+						<polygon class="upper" opacity="0" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="119.128,317.835
+							119.128,282.157 123.369,282.157 123.369,313.793     "></polygon>
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="123.37,313.793
+							136.843,313.793 136.843,317.835 119.129,317.835     "/>
+					</g>
+
+					<!-- O -->
+					<g class="animate love o">
+						<path class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M144.037,313.303
+						c-1.822-1.771-3.202-3.783-4.158-6.047c-0.949-2.253-1.422-4.647-1.422-7.185c0-2.554,0.473-4.957,1.422-7.227
+						c0.956-2.263,2.336-4.283,4.158-6.055c1.788-1.738,3.85-3.077,6.196-4.017c2.337-0.939,4.765-1.414,7.286-1.414
+						c2.536,0,4.973,0.475,7.326,1.414c2.346,0.94,4.417,2.279,6.204,4.017l-3.201,2.803c-1.397-1.397-2.978-2.462-4.741-3.193
+						c-1.755-0.733-3.626-1.099-5.588-1.099c-1.98,0-3.86,0.366-5.631,1.099c-1.772,0.731-3.335,1.796-4.699,3.193
+						c-1.397,1.414-2.462,3.01-3.194,4.799c-0.732,1.788-1.098,3.684-1.098,5.68c0,1.979,0.358,3.851,1.082,5.605
+						c0.723,1.754,1.796,3.343,3.21,4.773L144.037,313.303z"/>
+						<path class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M171.049,286.789
+							c1.822,1.771,3.202,3.784,4.158,6.046c0.949,2.254,1.423,4.649,1.423,7.186c0,2.553-0.474,4.957-1.423,7.227
+							c-0.956,2.263-2.336,4.283-4.158,6.056c-1.788,1.737-3.851,3.076-6.196,4.016c-2.337,0.94-4.765,1.414-7.286,1.414
+							c-2.536,0-4.973-0.474-7.326-1.414c-2.346-0.939-4.417-2.278-6.204-4.016l3.201-2.804c1.397,1.397,2.977,2.461,4.741,3.193
+							c1.754,0.732,3.626,1.099,5.588,1.099c1.98,0,3.859-0.366,5.631-1.099s3.335-1.796,4.699-3.193
+							c1.397-1.414,2.462-3.011,3.193-4.799c0.733-1.788,1.099-3.684,1.099-5.68c0-1.98-0.358-3.851-1.082-5.606
+							c-0.723-1.754-1.796-3.343-3.21-4.773L171.049,286.789z"/>
+					</g>
+
+					<!-- V -->
+					<g class="animate love v">
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="192.839,309.452
+						203.269,282.157 207.851,282.157 192.839,319.233     "/>
+						<polygon class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="192.839,319.232
+						177.761,282.157 182.36,282.157 192.839,309.451  "/>
+					</g>
+
+					<!-- E -->
+					<g class="animate love e">
+						<polygon class="left" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="215.834,300.221
+						215.834,313.894 211.594,317.836 211.594,282.157 215.834,286.049 215.834,296.279     "/>
+						<rect class="middle" x="215.835" y="296.279" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="14.571" height="3.942"/>
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="215.834,313.894
+						230.406,313.894 230.406,317.835 211.594,317.835     "/>
+						<polygon class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="211.594,282.157
+						230.405,282.157 230.405,286.049 215.834,286.049     "/>
+					</g>
+
+
+					<!-- Arrow first -->
+					<g class="animate arrow first">
+						<rect x="265.564" y="298.792" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#B07C40;" width="1.002" height="3.001"/>
+						<rect x="252.539" y="299.785" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#B07C40;" width="15.067" height="1"/>
+						<!-- <animateTransform attributeName="transform" type="translate" from="-5" to="0" begin="1.1s" dur="0.2s" /> -->
+					</g>
+
+
+					<!-- CREATE -->
+					<!-- C -->
+					<g class="animate create c">
+						<path class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M322.623,290.689
+						c-1.705-1.854-3.527-3.227-5.456-4.108c-1.938-0.89-4.075-1.331-6.412-1.331c-1.888,0-3.726,0.383-5.522,1.148
+						c-1.789,0.765-3.352,1.829-4.666,3.194c-1.364,1.413-2.387,2.993-3.069,4.74c-0.267,0.684-0.482,1.396-0.645,2.136l-3.539-3.54
+						l0.1-0.251c0.915-2.254,2.312-4.291,4.2-6.129c1.822-1.755,3.834-3.069,6.047-3.934c2.212-0.873,4.624-1.306,7.235-1.306
+						c2.071,0,4.067,0.316,5.997,0.94c1.937,0.624,3.842,1.588,5.73,2.903V290.689z"/>
+						<path class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M296.853,296.468
+						c-0.252,1.15-0.378,2.367-0.378,3.652c0,1.656,0.199,3.187,0.607,4.583c0.407,1.398,1.014,2.679,1.83,3.852
+						c1.43,2.028,3.184,3.592,5.272,4.689c2.088,1.099,4.341,1.647,6.761,1.647c2.28,0,4.392-0.475,6.338-1.414
+						c1.955-0.94,3.734-2.345,5.34-4.217v5.631c-1.772,1.281-3.677,2.254-5.714,2.911c-2.038,0.656-4.151,0.98-6.329,0.98
+						c-1.88,0-3.718-0.282-5.506-0.84c-1.788-0.557-3.46-1.38-5.023-2.453c-2.595-1.797-4.583-4.017-5.955-6.645
+						c-1.372-2.638-2.062-5.523-2.062-8.674c0-2.644,0.424-5.063,1.279-7.244L296.853,296.468z"/>
+					</g>
+
+					<!-- R -->
+					<g class="animate create r">
+						<path class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M334.606,300.819h-0.599v-3.144
+						h3.235c3.318,0,5.539-0.424,6.662-1.281c1.123-0.848,1.68-2.337,1.68-4.466c0-2.287-0.574-3.883-1.73-4.807
+						c-1.156-0.915-3.36-1.372-6.612-1.372h-3.235v0.017l-4.142-3.61h8.384c2.386,0,4.141,0.133,5.248,0.4
+						c1.114,0.274,2.095,0.731,2.944,1.38c1.056,0.823,1.871,1.938,2.453,3.327c0.591,1.389,0.881,2.927,0.881,4.616
+						c0,2.919-0.815,5.146-2.445,6.661c-1.638,1.521-4.025,2.278-7.177,2.278h-0.757H334.606z"/>
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="339.397,300.819
+						353.02,317.836 347.631,317.836 334.607,300.819  "/>
+						<polygon class="left" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="334.008,285.766
+						334.008,297.676 334.008,300.819 334.008,317.835 329.866,317.835 329.866,282.157     "/>
+					</g>
+
+					<!-- E -->
+					<g class="animate create e">
+						<polygon class="left" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="360.813,300.221
+						360.813,313.894 356.571,317.836 356.571,282.157 360.813,286.049 360.813,296.279     "/>
+
+						<rect class="middle" x="360.812" y="296.279" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="14.571" height="3.942"/>
+
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="360.813,313.894
+							375.383,313.894 375.383,317.835 356.571,317.835     "/>
+
+						<polygon class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="356.571,282.157
+						375.383,282.157 375.383,286.049 360.812,286.049     "/>
+					</g>
+
+					<!-- A -->
+					<g class="animate create a">
+						<path class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M382.27,317.835h-4.591l16.16-37.076
+							v9.381C389.851,299.366,386.187,308.596,382.27,317.835"/>
+
+						<path class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M393.838,290.141v-9.381
+							l16.226,37.076h-4.599C401.547,308.594,397.83,299.363,393.838,290.141"/>
+
+						<path class="middle" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M400.885,306.885
+							c-5.565,0-8.252,0.043-14.072,0.043l1.511-3.663h11.057L400.885,306.885z"/>
+					</g>
+
+					<!-- T -->
+					<g class="animate create t">
+						<rect class="upper" x="417.266" y="286.199" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="4.292" height="31.636"/>
+
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="417.266,286.199
+						407.186,286.199 407.186,282.157 431.588,282.157 431.588,286.199 421.559,286.199     "/>
+					</g>
+
+					<!-- E -->
+					<g class="animate create e second">
+						<polygon class="left" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="440.562,300.221
+							440.562,313.894 436.32,317.836 436.32,282.157 440.562,286.049 440.562,296.279   "/>
+
+						<rect class="middle" x="440.561" y="296.279" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="14.571" height="3.942"/>
+
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="440.562,313.894
+							455.133,313.894 455.133,317.835 436.32,317.835  "/>
+
+						<polygon class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="436.32,282.157
+							455.132,282.157 455.132,286.049 440.562,286.049     "/>
+					</g>
+
+
+					<!-- Arrow second -->
+					<g class="animate arrow second">
+						<rect x="479.491" y="299.785" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#B07C40;" width="15.066" height="1"/>
+						<rect x="492.516" y="298.792" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#B07C40;" width="1.002" height="3.001"/>
+
+						<!-- <animateTransform attributeName="transform" type="translate" from="-5" to="0" begin="3.2s" dur="0.2s" /> -->
+					</g>
+
+
+					<!-- INSPIRE -->
+					<!-- I -->
+					<g class="animate inspire i first">
+						<rect x="524.044" y="282.157" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="4.241" height="35.678"/>
+					</g>
+
+					<!-- N -->
+					<g class="animate inspire n">
+					<polygon class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="540.952,291.03
+						540.952,317.836 536.91,317.836 536.91,280.759   "/>
+
+						<polygon class="middle" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="567.05,319.232
+						540.952,291.031 536.909,280.76 563.008,309.261  "/>
+
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="563.008,309.261
+						563.008,282.157 567.05,282.157 567.05,319.232   "/>
+					</g>
+
+
+					<!-- S -->
+					<g class="animate inspire s">
+						<path class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M585.762,301.368l-4.341-1.854
+							c-2.37-0.989-4.142-2.262-5.298-3.826c-1.164-1.555-1.746-3.427-1.746-5.605c0-2.537,0.939-4.633,2.827-6.288
+							c1.888-1.655,4.292-2.487,7.219-2.487c2.138,0,4.001,0.458,5.564,1.365c1.571,0.914,2.795,2.253,3.668,4.033l-3.511,2.237
+							c-0.789-1.38-1.688-2.403-2.678-3.077c-0.99-0.674-2.111-1.015-3.359-1.015c-1.598,0-2.903,0.491-3.917,1.464
+							c-1.015,0.973-1.522,2.212-1.522,3.726c0,1.264,0.391,2.362,1.173,3.285c0.773,0.932,1.987,1.747,3.626,2.462l5.099,2.245
+							c0.001,0.001,0.002,0.002,0.002,0.002L585.762,301.368z"/>
+						<path class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M588.567,298.035
+							c2.319,0.988,4.07,2.305,5.246,3.939c1.178,1.642,1.771,3.585,1.771,5.822c0,3.277-1.049,5.922-3.136,7.926
+							c-2.088,2.005-4.85,3.012-8.3,3.012c-2.812,0-5.165-0.716-7.069-2.154c-1.897-1.439-3.177-3.478-3.852-6.121l3.852-1.905
+							c0.523,2.163,1.38,3.801,2.578,4.916c1.188,1.114,2.686,1.671,4.491,1.671c2.129,0,3.85-0.614,5.173-1.838
+							c1.313-1.23,1.971-2.828,1.971-4.791c0-1.596-0.458-2.977-1.381-4.158c-0.915-1.181-2.295-2.171-4.15-2.985L588.567,298.035z"/>
+					</g>
+
+
+					<!-- P -->
+					<g class="animate inspire p">
+						<path class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M605.373,297.975h2.146
+							c3.635,0,6.088-0.424,7.344-1.281c1.256-0.848,1.888-2.337,1.888-4.466c0-2.27-0.648-3.867-1.938-4.79
+							c-1.289-0.923-3.726-1.389-7.294-1.389h-2.146l-4.142-3.892h7.478c2.618,0,4.549,0.141,5.778,0.416
+							c1.24,0.274,2.313,0.731,3.22,1.364c1.139,0.806,2.028,1.921,2.67,3.334c0.64,1.414,0.964,2.978,0.964,4.699
+							c0,1.73-0.324,3.294-0.964,4.708c-0.642,1.414-1.531,2.528-2.67,3.334c-0.906,0.648-1.979,1.114-3.202,1.39
+							c-1.231,0.273-3.16,0.415-5.796,0.415h-1.19h-2.146V297.975z"/>
+
+						<polygon class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="605.373,286.049
+							605.373,297.975 605.373,301.817 605.373,317.835 601.231,317.835 601.231,282.157     "/>
+					</g>
+
+					<!-- I -->
+					<g class="animate inspire i second">
+						<rect x="626.622" y="282.157" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="4.242" height="35.678"/>
+					</g>
+
+					<!-- R -->
+					<g class="animate inspire r">
+						<path class="upper" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M644.229,300.819h-0.599v-3.144
+						h3.235c3.317,0,5.539-0.424,6.661-1.281c1.123-0.848,1.681-2.337,1.681-4.466c0-2.287-0.574-3.883-1.73-4.807
+						c-1.156-0.915-3.359-1.372-6.611-1.372h-3.235l-4.142-3.593h8.384c2.387,0,4.141,0.133,5.247,0.4
+						c1.114,0.274,2.096,0.731,2.944,1.38c1.057,0.823,1.871,1.938,2.453,3.327c0.59,1.389,0.881,2.927,0.881,4.616
+						c0,2.919-0.814,5.146-2.444,6.661c-1.639,1.521-4.025,2.278-7.178,2.278h-0.757H644.229z" />
+						<polygon class="lower" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="649.019,300.819
+						662.642,317.836 657.253,317.836 644.229,300.819     "/>
+						<polygon class="left" style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="643.63,285.75
+						643.63,297.676 643.63,300.819 643.63,317.836 639.487,317.836 639.487,282.157    "/>
+					</g>
+
+
+					<!-- E -->
+					<g class="animate inspire e">
+						<polygon class="left" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="670.435,300.221 670.435,313.894 666.193,317.836
+							666.193,282.157 670.435,286.049 670.435,296.279 ">
+						</polygon>
+
+						<rect class="middle" x="670.435" y="296.279" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" width="14.57" height="3.942">
+						</rect>
+
+						<polygon class="lower" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="670.435,313.894 685.005,313.894 685.005,317.835
+							666.193,317.835 "/>
+						<polygon class="upper" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" points="666.193,282.157 685.005,282.157 685.005,286.049
+							670.435,286.049 "/>
+					</g>
+
+				</g>
+				</svg>
+
+				<div class="hint-container">
+<!--
+					<div class="hint animated fadeIn">
+						<img src="images/loading_mouse.svg" alt="swipe hand icon" />
+						<div class="text">swipe me</div>
+					</div><div class="hint animated fadeIn">
+						<img src="images/info.png" alt="info icon" />
+						<div class="text">click me</div>
+					</div>
+-->
+					<img src="images/welcome.png" height="100" width="250" alt="preview" />
+				</div>
+			</div>
+			<div class="preloader"></div>
+		</div>
+
+		<div class="portrait-overlay">
+<!--			<img src="images/mobile-rotate-icon.svg" alt="rotate device" />-->
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 255 219" xml:space="preserve">
+			<path fill="#B1804B" d="M132.2,212.7h96c9.9,0,18-8.1,18-18.1v-75.9c0-10-8.1-18.1-18-18.1h-96c0,7.4,0,3.1,0,7.2h96
+				c5.9,0,10.8,4.9,10.8,10.8v75.9c0,6-4.8,10.8-10.8,10.8h-96C132.2,210.3,132.2,205.9,132.2,212.7z"/>
+			<path fill="#B1804B" d="M231.8,160.9c-2,0-3.6-1.6-3.6-3.6l0,0c0-2,1.6-3.6,3.6-3.6l0,0c2,0,3.6,1.6,3.6,3.6l0,0
+				C235.4,159.3,233.8,160.9,231.8,160.9L231.8,160.9z"/>
+			<path fill="#B1804B" d="M217.4,165.7v-18.1c0-2,1.6-3.6,3.6-3.6c2,0,3.6,1.6,3.6,3.6v18.1c0,2-1.6,3.6-3.6,3.6
+				C219,169.3,217.4,167.7,217.4,165.7z"/>
+			<path fill="#FFFFFF" d="M228.6,79.2l-3.4,2.1c3,5,5.8,10.2,8.3,15.4l3.6-1.7C234.5,89.5,231.7,84.2,228.6,79.2L228.6,79.2z
+				 M208.5,53.1l-2.9,2.8c4,4.2,7.8,8.7,11.3,13.4l3.2-2.4C216.5,62,212.6,57.4,208.5,53.1L208.5,53.1z M183.3,31.8l-2.2,3.3
+				c4.8,3.2,9.5,6.8,13.9,10.6l2.6-3C193,38.8,188.3,35.2,183.3,31.8L183.3,31.8z M154.1,16.6l-1.4,3.7c5.4,2.1,10.8,4.5,15.9,7.3
+				l1.9-3.5C165.1,21.3,159.7,18.8,154.1,16.6L154.1,16.6z M122.2,8.4l-0.5,4c5.7,0.8,11.5,1.9,17.1,3.4l1-3.9
+				C134.1,10.4,128.2,9.2,122.2,8.4L122.2,8.4z"/>
+			<path fill="#B1804B" d="M102.1,212.7H26.3c-10,0-18.1-8.1-18.1-18v-169c0-9.9,8.1-18,18.1-18h75.9c10,0,18.1,8.1,18.1,18v169
+				C120.2,204.6,112.1,212.7,102.1,212.7z M26.3,14.9c-6,0-10.8,4.8-10.8,10.8v169c0,5.9,4.9,10.8,10.8,10.8h75.9
+				c6,0,10.8-4.8,10.8-10.8v-169c0-5.9-4.9-10.8-10.8-10.8H26.3z"/>
+			<path fill="#B1804B" d="M68.4,22.1c0,2-1.6,3.6-3.6,3.6l0,0c-2,0-3.6-1.6-3.6-3.6l0,0c0-2,1.6-3.6,3.6-3.6l0,0
+				C66.8,18.5,68.4,20.1,68.4,22.1L68.4,22.1z"/>
+			<path fill="#B1804B" d="M73.2,36.5H55.2c-2,0-3.6-1.6-3.6-3.6c0-2,1.6-3.6,3.6-3.6h18.1c2,0,3.6,1.6,3.6,3.6
+				C76.9,34.9,75.2,36.5,73.2,36.5z"/>
+			<path fill="#B1804B" d="M64.5,201.9H64c-6.8,0-12.4-5.5-12.4-12.3v-0.5c0-6.8,5.6-12.3,12.4-12.3h0.5c6.8,0,12.4,5.5,12.4,12.3v0.5
+				C76.9,196.4,71.3,201.9,64.5,201.9z M64,183.9c-2.8,0-5.2,2.3-5.2,5.1v0.5c0,2.8,2.3,5.1,5.2,5.1h0.5c2.8,0,5.2-2.3,5.2-5.1v-0.5
+				c0-2.8-2.3-5.1-5.2-5.1H64z"/>
+			</svg>
+			<div class="content-overlay">
+				<h2>please rotate</h2>
+				<div class="sub">your mobile device in landscape mode</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/all.js"></script>
+
+
+		<!-- Google Analytics -->
+		<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga('create', 'UA-55534400-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+		<script async src='//www.google-analytics.com/analytics.js'></script>
+		<!-- End Google Analytics -->
+
+		<script type="text/javascript">
+			$(function () {
+				var img = document.getElementById('background-image'),
+					optimize = docCookies.getItem('animation') === 'off';
+
+				Site.init({
+					container: '.scroll-content',
+					header: {
+						slider: '#titles',
+						popup: {
+							parent: 'header'
+						},
+						sliderSettings: {
+							stopOnHover: true,
+							autoPlay: true,
+							responsiveRefreshRate: 100,
+							transitionStyle: 'goDown'
+						}
+					},
+					parallax: (isMobile.any) ? true : optimize,
+					scene: (isMobile.any) ? false : true,
+					smoothWheel: (isMobile.any) ? false : true,
+					gradient: false
+				});
+			});
+		</script>
+	</body>
+</html>
